@@ -8,10 +8,6 @@
 
 using namespace std;
 
-const int MaxN = 1e5 + 10;
-const int MOD = 1e9 + 7;
-const int INF = 1e9;
-
 int main() {
 //  freopen("input.txt", "r", stdin);
   int a[3], b[3];
