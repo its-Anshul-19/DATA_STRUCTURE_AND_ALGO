@@ -102,3 +102,17 @@ int main()
         int data;
         cin >> data;
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        DoublyLinkedListNode* llist1 = sortedInsert(llist->head, data);
+
+        print_doubly_linked_list(llist1, " ", fout);
+        fout << "\n";
+
+        free_doubly_linked_list(llist1);
+    }
+
+    fout.close();
+
+    return 0;
+}
+Footer
